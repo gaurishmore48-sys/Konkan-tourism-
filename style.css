@@ -1,0 +1,154 @@
+.container{
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+.container img{
+    width: 100%;
+    display: block;
+}
+.one{
+    position: absolute;
+    bottom: 180px;
+    left: 660px;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+.button{
+    color: blue;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card{
+    width: 27%;
+    background-color: white;
+    border-radius: 7px;
+    margin: 40px;
+    box-shadow: 2px 2px 10px black;
+    display: inline-block;
+    transition: .3s;
+}
+
+.images img{
+    width: 100%;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.title{
+    text-align: center;
+    padding: 5px;
+    transition: ;
+}
+.des{
+    text-align: center;
+}
+ button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    border: 0px solid black;
+    padding: 5px;
+}
+button:hover{
+    background-color: skyblue;
+    color: whit;
+}
+
+footer{
+    padding-top: 50px;
+}
+.container{
+    width: 100%px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: #343434;
+    height: auto;
+    color: white;
+}
+.footer-content{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+}
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content:;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #d86705;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+.bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+}
+.bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+p{
+    font-size: 18px;
+    font-family: Calibri;
+}
+.checked{
+    color: yellow;
+}
+.card:hover{
+    background-color: royalblue;
+}

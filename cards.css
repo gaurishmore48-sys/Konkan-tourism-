@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+th{
+    font-family: Bell MT;
+    font-size: 20px;
+    color: white;
+}
+td{
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px;
+}
+td:hover{
+    color: darkblue;
+}
+tr:hover{
+    background-color: skyblue;
+}
+.card{
+    width: 27%;
+    background-color: white;
+    border-radius: 7px;
+    margin: 40px;
+    box-shadow: 2px 2px 10px black;
+    display: inline-block;
+    height: 350px;
+    cursor: pointer;
+    transition: .3s;
+}
+.checked{
+        color: yellow;
+    }
+.card:hover{
+    background-color: royalblue;
+}
+.main{
+    
+}
+
+.images img{
+    width: 100%;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.title{
+    text-align: center;
+    padding: 5px;
+}
+.des{
+    text-align: center;
+}
+ button{
+    margin-top: 17px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    border: 0px solid black;
+    padding : 8px;
+    width:100%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-family: Arial Black;
+}
+button:hover{
+    background-color: yellow;
+    color: white;
+}
+h1{
+    font-size: 20px;
+    font-family: Lucida Calligraphy;
+}
+p{
+    padding: 5px;
+}

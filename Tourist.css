@@ -1,0 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
